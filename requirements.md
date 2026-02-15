@@ -3,220 +3,99 @@ AI-Powered Social Media Growth Platform for Bharat
 
 ## 1. Overview
 
-Reach is a serverless AI-driven platform that helps creators, startups, and small businesses generate, optimize, schedule, and analyze social media content across platforms.
+Reach is a digital content growth platform that enables creators and businesses to generate, optimize, schedule, and analyze social media content across multiple platforms with multilingual support.
 
-Built using AWS services with high-speed AI inference, Reach simplifies multilingual content creation and improves digital engagement for the Indian market.
-
+The system focuses on improving digital engagement and simplifying content workflows.
 
 ## 2. Problem Statement
 
-Digital creators in India struggle with:
+Digital creators and small businesses face:
 
-- Creating consistent content across platforms
-- Writing in regional languages
-- Optimizing for engagement
-- Understanding performance insights
-- Accessing affordable AI tools
+- Difficulty maintaining consistent content across platforms  
+- Limited regional language content tools  
+- Lack of engagement optimization insights  
+- Fragmented scheduling and analytics tools  
+- High cost of advanced AI solutions  
 
-Reach solves this by combining fast AI generation, multilingual support, smart scheduling, and AI-powered analytics in one unified dashboard.
-
+Reach provides a unified, intelligent, and affordable solution.
 
 ## 3. Objectives
 
-- Enable AI-powered multi-platform content creation
-- Support 10+ Indian regional languages
-- Provide content optimization with engagement scoring
-- Offer smart scheduling with AI recommendations
-- Deliver analytics with actionable insights
-- Support video script generation for reels and shorts
+- Enable AI-assisted content creation for major social platforms  
+- Support multilingual content for Indian regional languages  
+- Provide engagement scoring and content optimization  
+- Offer smart scheduling with performance insights  
+- Deliver a centralized analytics dashboard  
+- Support short-form video script generation  
 
+## 4. Functional Requirements
 
-## 4. Core Features
+### 4.1 User Management
+- Users must be able to register and log in securely.  
+- Users must manage their profile and preferences.  
+- Users must access a personalized dashboard.  
 
-### 4.1 AI Content Creation
+### 4.2 Content Generation
+- Users must generate content for:
+  - Instagram  
+  - LinkedIn  
+  - Twitter/X  
+  - Blog  
+- Users must input topic, tone, audience, and keywords.  
+- System must generate optimized content variations.  
+- System must provide hashtags and call-to-action suggestions.  
 
-Platforms:
-- Instagram
-- LinkedIn
-- Twitter/X
-- Blog
+### 4.3 Multilingual Support
+- System must support at least 5 Indian regional languages.  
+- Users must translate content into selected languages.  
+- Tone and meaning must remain consistent after translation.  
 
-User Inputs:
-- Topic
-- Target Audience
-- Tone
-- Keywords
-- Language
-- Length
+### 4.4 Content Optimization
+- System must analyze sentiment of content.  
+- System must generate engagement score (0–100).  
+- System must extract important keywords.  
+- System must provide improvement suggestions.  
 
-Outputs:
-- Primary content
-- 3–5 variations
-- Hashtags
-- CTA suggestions
-- Hook lines
-- Emoji recommendations
+### 4.5 Scheduling
+- Users must schedule posts through a calendar interface.  
+- Users must edit or delete scheduled posts.  
+- System must allow draft and published status tracking.  
+- System must recommend optimal posting times.  
 
-Technology:
-- Groq API (primary inference engine)
-- Amazon Bedrock (fallback option)
+### 4.6 Analytics
+- System must display engagement trends.  
+- System must highlight best-performing content.  
+- System must show keyword performance.  
+- System must provide AI-driven recommendations.  
 
-----------------------------------------------------------------
+### 4.7 Video Script Generation
+- Users must generate scripts for short-form videos.  
+- System must provide scene breakdown and transitions.  
+- System must generate voiceover-ready text.  
 
-### 4.2 Multilingual Support
+## 5. Non-Functional Requirements
 
-- 10+ Indian languages (Hindi, Tamil, Telugu, Kannada, Malayalam, Bengali, Marathi, Gujarati, Punjabi, Odia)
-- Real-time translation
-- Tone preservation
-- Bilingual content generation
+- System must be responsive on mobile and desktop.  
+- System must handle concurrent users efficiently.  
+- System must ensure secure authentication and data handling.  
+- System must respond to AI requests with low latency.  
+- System must be deployable within a serverless infrastructure.  
 
-Technology:
-- Amazon Translate
+## 6. Constraints
 
-----------------------------------------------------------------
+- Limited development time (hackathon environment).  
+- External social media posting may be mocked.  
+- Limited real analytics data during demo.  
+- Infrastructure must remain cost-efficient.  
 
-### 4.3 Content Optimization
+## 7. Success Criteria
 
-- Engagement score (0–100)
-- Sentiment analysis
-- Keyword extraction
-- Tone consistency check
-- AI improvement suggestions
+- Content generation works across all supported platforms.  
+- Multilingual support functional for at least 5 languages.  
+- Optimization scores and suggestions displayed correctly.  
+- Scheduling system stores and retrieves data properly.  
+- Analytics dashboard displays meaningful insights.  
+- End-to-end workflow functions without failure.  
 
-Technology:
-- Amazon Comprehend
-
-----------------------------------------------------------------
-
-### 4.4 Smart Content Planner
-
-- Calendar view (Monthly/Weekly)
-- Drag & drop scheduling
-- Post status (Draft / Scheduled / Published)
-- Recurring templates
-- AI-recommended best posting time
-
-Technology:
-- Amazon DynamoDB
-- AWS Lambda
-
-----------------------------------------------------------------
-
-### 4.5 Analytics Dashboard
-
-- Engagement trends
-- Platform comparison
-- Top-performing posts
-- Keyword performance
-- Growth insights
-- AI recommendations
-
-Technology:
-- DynamoDB (data storage)
-- CloudWatch (metrics)
-- Recharts (visualization)
-
-----------------------------------------------------------------
-
-### 4.6 Video Script Generation
-
-- Short-form video scripts
-- Scene breakdown
-- Transition suggestions
-- Voiceover script
-- Reel/Short ideas
-
-Technology:
-- Google Generative AI (Gemini API)
-
-================================================================
-
-## 5. System Architecture
-
-Frontend:
-- React.js + Tailwind CSS
-- Hosted on Amazon S3 + CloudFront
-
-Backend:
-- AWS Lambda (serverless functions)
-- Amazon API Gateway (REST API)
-
-Database:
-- Amazon DynamoDB (Users, Content, Schedule, Analytics)
-
-AI Services:
-- Groq API (fast LLM inference)
-- Amazon Bedrock (fallback AI)
-- Amazon Translate (language support)
-- Amazon Comprehend (NLP analysis)
-- Google Gemini API (video scripts)
-
-Authentication:
-- Amazon Cognito
-
-Monitoring:
-- AWS CloudWatch
-
-Architecture Style:
-- Fully Serverless
-- Event-driven
-- Multi-AI provider strategy
-- Scalable by design
-
-================================================================
-
-## 6. User Flow
-
-1. User signs up/login (Amazon Cognito)
-2. Selects platform and enters content details
-3. Groq generates optimized content
-4. Optional translation via Amazon Translate
-5. Content analyzed via Amazon Comprehend
-6. User schedules post in calendar
-7. Analytics dashboard displays insights
-
-================================================================
-
-## 7. Non-Functional Requirements
-
-- Fully serverless architecture
-- Responsive UI (mobile + desktop)
-- Secure authentication and data handling
-- Scalable infrastructure
-- Low-latency AI responses
-- Cost-efficient deployment
-
-================================================================
-
-## 8. Success Criteria
-
-- Content generation works for all supported platforms
-- Multilingual output for at least 5 languages
-- Optimization scores displayed correctly
-- Scheduling system functional
-- Analytics dashboard visual and meaningful
-- All services integrated successfully
-
-================================================================
-
-## 9. Innovation Highlights
-
-Built for Bharat:
-Regional language-first approach for Indian creators
-
-Multi-AI Strategy:
-Groq (speed) + AWS (reliability) + Google (video intelligence)
-
-Serverless Architecture:
-No servers, scalable from day one
-
-AI-Driven Growth:
-Content creation + optimization + analytics in one platform
-
-Video-Ready:
-Supports modern short-form content workflows
-
-================================================================
-
-Project Vision:
-Empower Indian creators and businesses to scale their digital presence using accessible, affordable AI technology.
+Project Vision:  
+Empower Indian creators and businesses to grow digitally using intelligent and accessible tools.
