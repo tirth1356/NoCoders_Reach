@@ -13,5 +13,3 @@
 - [Megh](https://github.com/Megh36)  
 - [Kavya Shah](https://github.com/kavyashah0612)  
 - [Rutva](https://github.com/Rutva-11)  
-
----
