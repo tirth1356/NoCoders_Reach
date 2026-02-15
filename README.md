@@ -3,14 +3,12 @@
 
 ---
 
-## Project Name  
-# Reach  
+## Project Name: Reach  
 ### *Turn ideas into engagement.*
 
 ---
 
 ## Team Details  
-
 **Team Leader**  
 - [Tirth](https://github.com/tirth1356)
 
