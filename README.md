@@ -1,12 +1,9 @@
 # Team NoCoders  
 ### Submission for **AI for Bharat** by AWS & Hack2Skill  
 
----
-
 ## Project Name: Reach  
 ### *Turn ideas into engagement.*
 
----
 
 ## Team Details  
 **Team Leader**  
