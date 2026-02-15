@@ -118,7 +118,7 @@ The solution focuses on accessibility, affordability, and intelligent automation
 - Users must manage profile details.
 - Users must access a personalized dashboard.
 
----
+
 
 ### 6.2 Content Creation
 - Generate content for:
@@ -138,14 +138,14 @@ The solution focuses on accessibility, affordability, and intelligent automation
   - Suggest hashtags  
   - Suggest call-to-action lines  
 
----
+
 
 ### 6.3 Multilingual Support
 - Support at least 5 Indian regional languages.
 - Allow content translation.
 - Maintain tone and context consistency.
 
----
+
 
 ### 6.4 Content Optimization
 - Analyze sentiment.
@@ -153,7 +153,7 @@ The solution focuses on accessibility, affordability, and intelligent automation
 - Extract keywords.
 - Provide improvement suggestions.
 
----
+
 
 ### 6.5 Scheduling
 - Calendar-based scheduling.
@@ -161,7 +161,7 @@ The solution focuses on accessibility, affordability, and intelligent automation
 - Track draft and publish status.
 - Recommend optimal posting times.
 
----
+
 
 ### 6.6 Analytics
 - Display engagement trends.
@@ -169,7 +169,7 @@ The solution focuses on accessibility, affordability, and intelligent automation
 - Show keyword impact.
 - Provide AI-driven recommendations.
 
----
+
 
 ### 6.7 Video Script Generation
 - Generate structured short-form scripts.
