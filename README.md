@@ -10,6 +10,6 @@
 - [Tirth](https://github.com/tirth1356)
 
 **Team Members**  
-- [Megh](https://github.com/Megh36)  
+- [Megh](https://github.com/Megh36) 
 - [Kavya Shah](https://github.com/kavyashah0612)  
 - [Rutva](https://github.com/Rutva-11)  
